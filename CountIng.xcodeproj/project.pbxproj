@@ -15,6 +15,7 @@
 		0458A6341EA6419A007F1A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458A6321EA6419A007F1A0B /* LaunchScreen.storyboard */; };
 		0458A63F1EA6419A007F1A0B /* CountIngTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458A63E1EA6419A007F1A0B /* CountIngTests.m */; };
 		0458A64A1EA6419A007F1A0B /* CountIngUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458A6491EA6419A007F1A0B /* CountIngUITests.m */; };
+		0458A65B1EA887A2007F1A0B /* CountingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458A65A1EA887A2007F1A0B /* CountingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		0458A6451EA6419A007F1A0B /* CountIngUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountIngUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0458A6491EA6419A007F1A0B /* CountIngUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountIngUITests.m; sourceTree = "<group>"; };
 		0458A64B1EA6419A007F1A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0458A6581EA87F0C007F1A0B /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0458A6591EA887A2007F1A0B /* CountingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountingView.h; sourceTree = "<group>"; };
+		0458A65A1EA887A2007F1A0B /* CountingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,9 @@
 				0458A6281EA6419A007F1A0B /* AppDelegate.m */,
 				0458A62A1EA6419A007F1A0B /* ViewController.h */,
 				0458A62B1EA6419A007F1A0B /* ViewController.m */,
+				0458A6591EA887A2007F1A0B /* CountingView.h */,
+				0458A65A1EA887A2007F1A0B /* CountingView.m */,
+				0458A6581EA87F0C007F1A0B /* Config.h */,
 				0458A62D1EA6419A007F1A0B /* Main.storyboard */,
 				0458A6301EA6419A007F1A0B /* Assets.xcassets */,
 				0458A6321EA6419A007F1A0B /* LaunchScreen.storyboard */,
@@ -279,6 +286,7 @@
 				0458A62C1EA6419A007F1A0B /* ViewController.m in Sources */,
 				0458A6291EA6419A007F1A0B /* AppDelegate.m in Sources */,
 				0458A6261EA6419A007F1A0B /* main.m in Sources */,
+				0458A65B1EA887A2007F1A0B /* CountingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +524,7 @@
 				0458A6501EA6419A007F1A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0458A6511EA6419A007F1A0B /* Build configuration list for PBXNativeTarget "CountIngTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				0458A6531EA6419A007F1A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0458A6541EA6419A007F1A0B /* Build configuration list for PBXNativeTarget "CountIngUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				0458A6561EA6419A007F1A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
